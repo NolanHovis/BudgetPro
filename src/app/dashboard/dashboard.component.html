@@ -1,8 +1,26 @@
 <!-- Navbar -->
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-      <span class="material-icons-outlined">circle</span>
+<app-navbar></app-navbar>
+<body>
+  <div class="container">
+    <div class="row top-row">
+      <div class="col-xs-10">
+        <div class="card main-card" style="width: 90%;" (click)="method()">
+          <div class="card-body">
+            <div class="circle"></div>
+            <h3 class="card-title">${{ totalIncome }}</h3>
+            <p class="card-text">monthly income</p>
+          </div>
+          <hr>
+          <p class="card-text leftTo"><b>$1,000</b> left to budget</p>
+        </div>
+      </div>
+    </div>
+    <div class="lightBackground">
+      <app-income></app-income>
+      <app-expenses></app-expenses>
     </div>
   </div>
-</div>
+</body>
+
+<app-bottom-nav></app-bottom-nav>
+

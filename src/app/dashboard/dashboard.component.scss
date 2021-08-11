@@ -1,0 +1,118 @@
+body {
+  background: #363636;
+}
+
+.container {
+  padding-bottom: 5em;
+}
+
+.top-row {
+  padding-top: 5em;
+}
+
+table {
+  margin: auto;
+  width: 95%;
+  font-size: smaller;
+}
+
+tr {
+  border-bottom: solid rgba(190, 88, 203, 0.498) 1px;
+}
+
+td{
+  padding: 0;
+}
+
+::ng-deep {
+  mat-form-field {
+    height: 21px;
+  }
+
+  .mat-form-field-infix{
+    float: right;
+  }
+}
+
+.spacer {
+  height: 10px;
+}
+
+.money {
+  float: right;
+  font-weight: 600 !important;
+}
+
+.lightBackground {
+  z-index: 1;
+  background: #be5ad439;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  margin-top: -65px;
+  padding: 75px 0 20px 0
+}
+.card {
+  border: none;
+}
+
+.main-card {
+  z-index: 10;
+  margin: auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px 4px #00000038;
+
+  * {
+    text-align: center;
+  }
+
+  h3 {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+}
+
+.b-cards {
+  z-index: 2;
+  border-radius: 0;
+  box-shadow: 0 3px 6px 2px #00000038;
+  width: 95%;
+  margin: auto;
+  margin-top: 35px !important;
+
+  h6 {
+    color: #E9F18A;
+    background-color: #B573C6;
+    padding: 4px;
+  }
+}
+
+.leftTo {
+  margin: 10px 0;
+}
+
+.card-text {
+  font-size: 9px;
+}
+
+hr {
+  margin: 0;
+}
+
+.circle {
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  border: black solid 1px;
+  border-radius: 50%;
+}
+
+
+input, input.placeholder {
+  text-align: right;
+  font-weight: 600;
+}
+input, input:focus, textarea:focus, select:focus{
+  border: none;
+  outline: none;
+}
